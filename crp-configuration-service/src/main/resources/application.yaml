@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: crp-configuration-service
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        git:
+          uri: ssh://localhost/configuration
+          clone-on-start: true
+  security:
+    user:
+      name: root
+      password: s3cr3t

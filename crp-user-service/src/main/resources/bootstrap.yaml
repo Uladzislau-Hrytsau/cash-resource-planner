@@ -4,5 +4,12 @@ spring:
   cloud:
     config:
       uri: http://127.0.0.1:8080
+      retry:
+        initial-interval: 1500
+        multiplier: 1.5
+        max-attempts: 10000
+        max-interval: 1000
+      username: root
+      password: s3cr3t
 
 debug: true
