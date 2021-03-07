@@ -1,0 +1,42 @@
+package com.crp.enums;
+
+public enum  UserSex {
+
+    HETEROSEXUAL,
+    ALLOSEXISM,
+    Androsexual,
+    Asexual,
+    Aromantic,
+    Autosexual,
+    Autoromatic,
+    Bicurious,
+    Bisexual,
+    Biromantic,
+    Closeted,
+    Cupiosexual,
+    Demisexual,
+    Demiromantic,
+    Fluid,
+    Gay,
+    Graysexual,
+    Grayromantic,
+    Gynesexual,
+    Heterosexual,
+    Homosexual,
+    Lesbian,
+    Monosexual,
+    Non_libidoist_Asexual,
+    Omnisexual,
+    Pansexual,
+    Panromantic,
+    Polysexual,
+    Pomosexual,
+    Passing,
+    Queer,
+    Questioning,
+    Sapiosexual,
+    Skoliosexual,
+    Spectrasexual,
+    Straight;
+
+}
